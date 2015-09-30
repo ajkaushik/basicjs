@@ -1,15 +1,18 @@
-//Self Invoking Function or Immediatley Invoked Function (IIFE)
-//This pattern is really userful for maintaining scope and closures
-(function(param) {
-    //function body
-    //.......
-}(param)); // Self invoke the function
+////Self Invoking Function or Immediatley Invoked Function (IIFE)
+////This pattern is really userful for maintaining scope and closures
+//(function(param) {
+//    //function body
+//    //.......
+//}(param)); // Self invoke the function
 
 
 
 //A function without closure
 (function(doc) {
 
+    var h3 = doc.createElement("h3");
+    h3.innerHTML = "Buttons without Closure";
+    doc.body.appendChild(h3);
     for (var i = 0; i < 10; i++) {
         var btn = doc.createElement("button");
         btn.innerHTML = "Button " + i;
@@ -35,7 +38,9 @@
 //Step 2 : We will need a fucntion for button click event handler, so our IIFe should capture the
 //value of i and also, return a function for later use whenever button is clicked
 (function(doc) {
-
+    var h3 = doc.createElement("h3");
+    h3.innerHTML = "Buttons with Closure";
+    doc.body.appendChild(h3);
     for (var i = 0; i < 10; i++) {
         var btn = doc.createElement("button");
         btn.innerHTML = "Button " + i;
