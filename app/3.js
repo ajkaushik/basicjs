@@ -157,7 +157,7 @@
     //    alert(foo); // returns 1
 
 
-})(window.document);
+}(window.document));
 
 
 //(function(doc) {
@@ -200,7 +200,7 @@
 //    test.a();
 //
 //    document.getElementById("btnTest").addEventListener("click", test.a);
-//})(window.document);
+//}(window.document));
 
 //
 //
@@ -221,4 +221,4 @@
 //        doc.body.appendChild(btn);
 //    }
 //
-//})(window.document);
+//}(window.document));
