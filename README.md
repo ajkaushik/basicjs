@@ -4,6 +4,9 @@ Basic Javascript samples for scope,closures and generators
 
 1. Scope
 2. Closures
+3. With/Let
+4. Promise
+5. Hoisting basics
  
 References
  
@@ -22,4 +25,6 @@ http://thenextweb.com/google/2014/02/13/google-speeds-chrome-compiling-javascrip
 https://developers.google.com/closure/compiler/?hl=en
 
 https://en.wikipedia.org/wiki/V8_(JavaScript_engine)
+
+
 
