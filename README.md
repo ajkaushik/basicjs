@@ -5,7 +5,6 @@ Basic Javascript samples for scope,closures and generators
 1. Scope
 2. Closures
 3. With/Let
-4. Promise
 5. Hoisting basics
  
 References
