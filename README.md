@@ -1,6 +1,6 @@
 # basicjs
 
-Basic Javascript samples for scope,closures and generators
+**Samples are for below topics**
 
 1. Scope
 2. Closures
