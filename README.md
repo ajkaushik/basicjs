@@ -9,23 +9,23 @@ Basic Javascript samples for scope,closures and generators
 6. Promises
 7. Scope/Closure samples
  
-References
+### References
 
-Promises
+#### Promises
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 
 http://www.html5rocks.com/en/tutorials/es6/promises/
 
 
-Scope/Closoure
+#### Scope/Closoure
 http://www.w3schools.com/js/js_function_closures.asp
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 
-Hoisting
+#### Hoisting
 http://www.w3schools.com/js/js_hoisting.asp
  
-Some Additional stuff on Java script compilation :
+##### Some Additional stuff on Java script compilation :
  
 https://developers.google.com/v8/design#mach_code
 
