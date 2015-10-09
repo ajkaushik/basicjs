@@ -105,8 +105,9 @@
         promiseFromAsynOper
             .then(success, failed);
 
-        //Uncommet above then to see how even after resolving the promise
-        //handlers are getting called.
+        //Comment above code and then uncomment below code to see,
+        //how even after resolving the promise and then later attaching
+        //handlers are still getting called.
         // setTimeout(function() {
 
         //     //Attaching the success and failure handlers to promise
