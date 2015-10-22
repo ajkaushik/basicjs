@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+var greeting = "Hello";
+function setGreeting() {
+    greeting = document.getElementById("txtGreeting").value;
+}
+
+function showMessage() {
+	alert(greeting + " " + document.getElementById("txtUser").value);
+}
+</script>
+
+<h1>Exercise One</h1>
+
+<p>
+Greeting <input type="text" id="txtGreeting"> 
+<button id="btnSetMessage" onclick="setGreeting()">Set Message!</button>
+</p>
+<p>
+User Name <input type="text" id="txtUser">
+<button id="btnDisplay" onclick="showMessage()">Display</button>
+</p>
+
+</body>
+</html>

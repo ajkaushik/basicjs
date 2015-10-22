@@ -43,7 +43,7 @@
 //Promise is an object which is a placeholder for some event/value in future, so we can call asynchronous operation
 //and then return a promise immediately, which will call our attached handlers in future whenever promise is resolved
 //Promise has three states :
-// Pending --> Promise is still oending
+// Pending --> Promise is still pending
 // Resolve --> Promise is fulfilled, success handler will be called
 // Reject --> Promise failed, error handler will be called
 //Handlers will be invoked even if, the prmoise was resolved/rejected before attaching the handlers
@@ -58,14 +58,15 @@
     }
 
     //Handler for handling result from asynchronous operation
-    var success = function(result) {
+    function success(result) {
         appendToDiv("Success : " + result)
     }
 
     //Handler for promise failure
-    var failed = function(result) {
+    function failed(result) {
         appendToDiv("Failed : " + result)
     }
+
     var pass = true;
     //Our asynchronous operation will return a Promise object, which will be resolved/rejected later
     var asynchronousOperation = function() {
