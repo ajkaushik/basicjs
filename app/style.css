@@ -1,0 +1,10 @@
+p {
+    color: #020823;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0 0 10px;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 700px;
+}
