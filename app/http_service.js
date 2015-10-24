@@ -8,7 +8,7 @@ var httpService = (function() {
             //Create XHR object for asynchronous service call
             //Make a GET call to service url
             var request = new XMLHttpRequest();
-            request.open('DELETE', url);
+            request.open('GET', url);
             request.onload = function() {
                 if (request.status == 200) {
                     //Got OK from serverm resolve the server with response
